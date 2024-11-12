@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #assistant-container, #popup-container {
+    padding: 20px;
+    width: 360px;
+  }
+  
+  #assistant-container textarea, #popup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #assistant-container button, #popup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0078D7;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #assistant-container button:hover, #popup-container button:hover {
+    background-color: #005A9E;
+  }
+  
+  #response {
+    margin-top: 20px;
+  }
+  
+  #status-message {
+    margin-top: 10px;
+    color: red;
+  }
+  
+  a {
+    color: #0078D7;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

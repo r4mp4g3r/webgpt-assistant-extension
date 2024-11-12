@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WebGPT Assistant Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="popup-container">
+    <h2>WebGPT Assistant</h2>
+    <div id="login-form">
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+      <button id="login-button">Login</button>
+      <p>Don't have an account? <a href="#" id="register-link">Register</a></p>
+    </div>
+    <div id="register-form" style="display: none;">
+      <input type="email" id="reg-email" placeholder="Email">
+      <input type="password" id="reg-password" placeholder="Password">
+      <button id="register-button">Register</button>
+      <p>Already have an account? <a href="#" id="login-link">Login</a></p>
+    </div>
+    <div id="status-message"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
